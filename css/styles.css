@@ -10,6 +10,7 @@ article {
 	margin-bottom: 20px;
 	border-style: solid;
 	border-width: 1px;
+	border-color: gray;
 }
 
 /*
@@ -63,31 +64,28 @@ nav {
 She is the slayer block
 */
 
-#content .articleheader {
-	background-color: blue;
-	padding: 20px;
-}
-
-#content h2 {
-	color: red;
-}
-
-#content p{
-	font-size: 12px;
-}
-
-/*
-Paragraphs under she is a slayer
-*/
-
-#content .articlebody {
-	background-color: #C0E5F4;
-	padding: 10px;
-}
-
-#content p {
-	margin-bottom: 5px;
+article#content div.articleheader h2{
+	color: green;
 	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+article#content div.articleheader p{
+	color:black;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+article#content div.articlebody p {
+	font-size: 12px;
+	color: black;
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	background-color: #C0E5F4;
 }
 
 #content img {
@@ -99,24 +97,27 @@ Paragraphs under she is a slayer
 Foose Ball Tournament Results
 */
 
-.articleheader {
+div.articleheader h2{
 	background-color: #DCDCDC;
-	padding: 20px;
-	font-family: sans-serif;
+	color: black;
+	top-margin: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
 }
 
-.articleheader h2, h3 {
-	font-size: 100%;
-	color: gray;
-	font-family: sans-serif;
-}
-
-.articlebody p {
-	padding-bottom: 15px;
-	margin-left: 30px;
+div.articleheader p{
+	background-color: #DCDCDC;
+	color: yellow;
+	font-size: 12px;
 	padding-top: 0px;
-	margin-top: 0px;
-	font-family: sans-serif;
+	padding-left: 10px;
+	padding-bottom:	20px;
+}
+
+div.articlebody p{
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 table {
@@ -125,8 +126,8 @@ table {
 	width: 90%;
 	border-style: solid;
 	border-width: 1px;
+	border-color: gray;
 	margin-bottom: 20px;
-	font-family: sans-serif;
 	font-size: small;
 }
 
